@@ -1,0 +1,8 @@
+1 comando
+npm init - y
+
+2 comando
+npm install express
+
+3 commando
+npm install nodemon
