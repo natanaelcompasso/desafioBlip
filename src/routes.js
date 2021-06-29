@@ -8,5 +8,6 @@ router.get('/ping',(req,res)=>{
 })
 
 router.get('/todosDados', carrosselController.listCarrosselController)
+router.get('/dadosCSharp', carrosselController.listCarrosselCSharpController)
 
 module.exports = router;

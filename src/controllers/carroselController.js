@@ -1,4 +1,7 @@
+const { json } = require('express');
 const carroselServices = require('../services/carrosel');
+const {findRepositorios} = require('../utils');
+// const findRepositorios = require('../utils/repositorios')
 
 module.exports = {
     listCarrosselController: async (req,res)=>{
@@ -11,5 +14,19 @@ module.exports = {
            console.log(error)
            return res.status(400).send({error: 'Não conseguimos listar as informações'})
        }
+    },
+    listCarrosselCSharpController: async (req,res)=>{
+       try {
+           const list = await carroselServices.listCarrosselServices()
+            let filtroLinguagem = list.filter(value=>value.language == 'C#')
+            let filtroTratado = findRepositorios(filtroLinguagem)
+            return res.status(200).send(filtroTratado)
+           
+       } catch (error) {
+           console.log(error)
+           return res.status(400).send({error: 'Não conseguimos listar as informações'})
+       }
     }
+
+
 }
