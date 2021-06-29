@@ -14,6 +14,10 @@ npm start
 
 # Rotas de Acesso
 
-http://localhost:8080/todosDados
+Deploy Heroku
 
-http://localhost:8080//dadosCSharp
+https://blipdesafio2021.herokuapp.com/dadosCSharp
+
+localhost
+
+http://localhost:8080/dadosCSharp
