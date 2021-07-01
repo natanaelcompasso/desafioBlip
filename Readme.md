@@ -1,10 +1,10 @@
-# BACK END DA APLICAÇÃO CONSTRUOBRE
+# BACK END DA APLICAÇÃO DesafioBLIP
 
 ## Apropriar o projeto
 
 git clone https://github.com/natanaelcompasso/desafioBlip.git
 
-## Instalar as Dependências
+## Instalar as dependências
 
 npm install
 
@@ -12,7 +12,7 @@ npm install
 
 npm start
 
-# Rotas de Acesso
+# Rotas de acesso
 
 Deploy Heroku
 
