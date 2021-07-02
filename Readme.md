@@ -1,8 +1,10 @@
-# BACK END DA APLICAÇÃO DesafioBLIP
+# BACK END DA APLICAÇÃO DESAFIOBLIP && JSON BLIPDESAFIO
 
 ## Apropriar o projeto
 
 git clone https://github.com/natanaelcompasso/desafioBlip.git
+
+Importar o arquivo blipdesafio.json no Blip
 
 ## Instalar as dependências
 

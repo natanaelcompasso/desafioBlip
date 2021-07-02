@@ -1,7 +1,6 @@
 const { json } = require('express');
 const carroselServices = require('../services/carrosel');
 const {findRepositorios} = require('../utils');
-// const findRepositorios = require('../utils/repositorios')
 
 module.exports = {
     listCarrosselController: async (req,res)=>{
